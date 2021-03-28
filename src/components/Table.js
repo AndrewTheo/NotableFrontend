@@ -29,11 +29,11 @@ function Table(props) {
 
     <div className="contentTable">
         <div className = "content">
-          <div> <h1>{doctorData.Name}</h1> <h2>{doctorData.Email}</h2></div>
+          <div> <h1>Dr. {doctorData.Name}</h1> <h2>{doctorData.Email}</h2></div>
           <div className="width90">
             <table>
-            <tr style={{background: "rgb(50,127,221)"}}>
-              <th>#</th>
+            <tr className="white" style={{background: "rgb(50,127,221)"}}>
+              <th className="addPadding">#</th>
               <th>Name</th>
               <th>Time</th>
               <th>Kind</th>
@@ -41,7 +41,7 @@ function Table(props) {
             {tableData.map((doctor, index) => {
               return(
                 <tr className = {index & 1 ? 'alternate' : ''}>
-                  <td>{doctor.ID}</td>
+                  <td className="addPadding">{doctor.ID}</td>
                   <td>{doctor.Name}</td>
                   <td>{doctor.time}</td>
                   <td>{doctor.Kind}</td>

@@ -13,6 +13,10 @@ table{
     background: rgb(244,244,246);
 }
 
+.white{
+  color:white;
+}
+
 .contentTable
 {
   width:60%;

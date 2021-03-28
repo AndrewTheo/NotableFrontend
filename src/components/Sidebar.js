@@ -11,9 +11,9 @@ function Sidebar(props) {
   return (
     <div className="sidebar">
         <div className = "content">
-            <div> <h1>Notable</h1></div>
+            <div> <h1 className="title">Notable</h1></div>
             <div className="fullWidth">
-             <h1>Physicians</h1>
+             <h1 className="addPadding secondTitle">Physicians</h1>
              <div className="list">
                  {props.doctors.map((doctor, index) => {
                    return(
@@ -27,7 +27,7 @@ function Sidebar(props) {
 
            </div>
         </div>
-        <div><button>Logout</button> </div>
+        <div><div className="logout"><h3 className="addPadding">Logout</h3></div> </div>
     </div>
   );
 }

@@ -15,6 +15,16 @@
   align-items: left;
   text-align: left;
 }
+.logout{
+  border-radius: 5px;
+  background-color: rgb(50,127,221);
+  width: 100px;
+  margin: auto;
+  color:white;
+}
+.secondTitle{
+  font-size: 20px;
+}
 
 .fullWidth {
   width: 100%;
@@ -28,7 +38,10 @@ ul{
   padding:0; list-style-type:none;
 }
 
-
+.title{
+  color:rgb(50,127,221);
+  padding-left: 10px;
+}
 
 .list{
   display:flex;
